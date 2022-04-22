@@ -5,9 +5,11 @@ import aal from "../images/analytical-white.svg"
 
 const Header = () => (
   <header style={{
-          height: `15vh`,
+      height: `15vh`,
       top:-1,
-      position:`sticky` }}>
+      position:`sticky`,
+      zIndex:999
+  }}>
       <div style={{
           height: `15vh`,
           marginTop:`-15vh`,
