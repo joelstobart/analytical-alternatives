@@ -1,0 +1,93 @@
+
+//--- IMPORT ---------------------------------//
+@import 'hexi-flexi-grid';
+
+
+//--- TEMPLATE -------------------------------//
+#hexGridHeader {
+  //--- SETTINGS -------------- VALUES ---------//
+  $gridWidth:   100vw;       // 'auto',(px,pt,r/em,vw/h)
+  $gridHeight:  auto;       // 'auto',(px,pt,r/em,vw/h)
+  $columnCount: 12;          // 'auto',(number)
+  $rowCount:    3;          // 'auto',(number)
+  $hexCount:    auto;       // 'auto',(number)
+  $hexLayout:   row;        // 'row','column','strict'
+  $gridOrient:  vertical;   // 'vertical','horizontal'
+  $crop:        none;       // 'none','crop'
+  $cropFactor:  1.1;       // (number)
+  $hexContent:  auto;       // 'auto','center'
+  $hexSize:     auto;       // 'auto',(px,pt,r/em,vw/h)
+  $hexMargin:   0.3vw;     // (px,pt,r/em,vw/h)
+  $hexShape:    hexagon;     // 'hexagon','circle'
+  $hexColor:    #48a999;       // hexcode,rgb/a,named
+  //--- BREAKPOINTS --- COLUMNS ----- WIDTH ----//
+  $breakpoints: (
+          small: (     $columnCount, 480px),
+          medium: (     6,            720px),
+          large: (     9,            960px)
+  );
+  //--- IMAGES ---------------------------------//
+
+  $images: none;
+  //--- CUSTOM STYLES --------------------------//
+  margin: .5rem auto 2rem;
+  .r-2 {
+    background-color: #80e27e;
+    // margin: 1vw;
+  }
+  .r-3 {
+    background-color: #e1ffb1;
+    // margin: 2vw;
+  }
+  .hexCrop {
+    height: 100%;
+  }
+  .hex {
+    user-select: none;
+    transform: scale(.9);
+    transition: transform .2s ease-in-out;
+    &:hover {transform: scale(1.05)}
+  }
+  .hex span {
+    font-size: 5vw;
+    color: #fffffb;
+    font-family: 'Bungee', cursive;
+  }
+
+  //--- MIXINS ---------------------------------//
+  @include hexWrapper($gridWidth,$gridHeight,
+          $gridOrient,$rowCount,$columnCount);
+  .hexCrop {@include hexCrop($crop,$cropFactor)}
+  .hexContainer {@include hexContainer($gridWidth,$gridHeight,
+          $gridOrient,$columnCount, $images,$rowCount,
+          $hexLayout,$hexContent,$hexShape,$hexColor,
+          $hexMargin,$hexCount,$hexSize)}
+  //--------------------------------------------//
+}
+
+#hexGridDemo-1 {
+  $gridWidth:   20em;
+  $gridHeight:  auto;
+  $columnCount: 3;
+  $rowCount:    2;
+  $hexCount:    auto;
+  $hexLayout:   row;
+  $gridOrient:  vertical;
+  $crop:        none;
+  $cropFactor:  1;
+  $hexContent:  auto;
+  $hexSize:     auto;
+  $hexMargin:   0.5em;
+  $hexShape:    hexagon;
+  $hexColor:    #48a999;
+  $breakpoints: none;
+  $images:      none;
+
+  @include hexWrapper($gridWidth,$gridHeight,
+          $gridOrient,$rowCount,$columnCount);
+  .hexCrop {@include hexCrop($crop,$cropFactor)}
+  .hexContainer {@include hexContainer($gridWidth,$gridHeight,
+          $gridOrient,$columnCount, $images,$rowCount,
+          $hexLayout,$hexContent,$hexShape,$hexColor,
+          $hexMargin,$hexCount,$hexSize)}
+}

@@ -67,6 +67,121 @@ const IndexPage = () => (
               <img src={quill} height={`60%`}/>
               </div>
       </section>
+
+          <section className={"grey"}>
+              <div
+                  style={{
+                      margin: `0 auto`,
+                      maxWidth: 960,
+                      padding: `0.5rem 1.0875rem`,
+                      paddingTop: `5vh`,
+                      textAlign: `center`
+                  }}
+              >
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
+                      <Link
+                          to="/"
+                          style={{
+                              fontFamily: `Courier New` ,
+                              fontWeight: `lighter`,
+                              color: `white`,
+                              textShadow: `0 0 22px #64ce5c, 0 0 30px #64ce5c, 0 0 40px #64ce5c`,
+                              textDecoration: `none`
+                          }}
+                      >
+                          some of what we do.
+                      </Link>
+                  </h2>
+                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "18px"}}>In the 20+ years since AAL was established we have progressively been asked to help our clients perform more varied tasks in more challenging environments to further their business aims. These tasks include but are not limited to:</p>
+                  <div className={`hexagonContainer`}>
+                      <ul className={`hexagons`}>
+                          <li>
+                              <div>Threat Assessment</div>
+                          </li>
+                          <li>
+                              <div>
+                                  Due Diligence
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Regular Risk Monitoring
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Clear and Darknet Monitoring
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Domain Name Monitoring
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Online Takedowns
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Covert Engagement
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Evidential Test Purchasing
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Bulk non-evidential test purchasing
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Intelligence Profiling
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Secure Chain of Custody & Evidence Handling
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Investigation Management
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  In-country Market Survey
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Surveillance
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Intelligence Analysis
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Vulnerability Assessments
+                              </div>
+                          </li>
+                          <li>
+                              <div>
+                                  Referral to Law Enforcement or Civil Legal Partners
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
       </main>
   </Layout>
 )

@@ -492,6 +492,13 @@ section.black {
   background-color:black;
 }
 
+section.grey {
+  background-color:#181b19;
+  background-image: url("../images/hexagon.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
 .london {
   --color-text: #aaa;
   --color-bg: #000;
@@ -885,4 +892,89 @@ section.black {
     opacity: 0;
     transform: translate3d(0, 0, 0);
   }
+}
+
+.hexagonContainer {
+  --hex-width: 130px;
+  --hex-between: 5px;
+
+  /* Other hexagon dimentions */
+  --hex-height: calc(var(--hex-width) / 1.73 /* sqrt(3) */);
+  --hex-margin: calc(var(--hex-width) / 2);
+  --hex-border: calc(var(--hex-margin) / 1.73 /* sqrt(3) */);
+  --hex-transition: all .2s ease;
+
+  --color-hex-default: rgba(71, 71, 71, 0.6);
+  --color-hex-hover:   rgba(71, 71, 71, 0.4);
+}
+
+ul.hexagons {
+  list-style: none;
+  display: grid;
+  grid-template-columns: var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width);
+  grid-auto-rows: calc(var(--hex-width) - 35px/6 );
+  grid-gap: var(--hex-between) var(--hex-between);
+  padding-bottom: var(--hex-border);
+}
+
+
+ul.hexagons > li {
+  align-items: center;
+  background-color: var(--color-hex-default);
+  cursor: pointer;
+  display: flex;
+  fill: white;
+  height: var(--hex-height);
+  justify-content: center;
+  margin: var(--hex-border) 0;
+  position: relative;
+  transition: var(--hex-transition);
+  width: var(--hex-width);
+  text-align: center;
+}
+
+ul.hexagons > li > div {
+  color:white;
+  font-family:calibri, Sans-serif;
+  font-size: 14px;
+  line-height: 12px;
+}
+
+ul.hexagons > li::after,
+ul.hexagons > li::before {
+  border-left: var(--hex-margin) solid transparent;
+  border-right: var(--hex-margin) solid transparent;
+  content: "";
+  left: 0;
+  position: absolute;
+  transition: var(--hex-transition);
+  width: 0;
+}
+ul.hexagons > li::after {
+  border-top: var(--hex-border) solid var(--color-hex-default);
+  top: 100%;
+  width: 0;
+}
+ul.hexagons > li::before {
+  border-bottom: var(--hex-border) solid var(--color-hex-default);
+  bottom: 100%;
+}
+
+ul.hexagons > li:hover {
+  background-color: var(--color-hex-hover);
+}
+ul.hexagons > li:hover::after,
+ul.hexagons > li:hover::before {
+  border-top-color: var(--color-hex-hover);
+  border-bottom-color: var(--color-hex-hover);
+}
+
+ul.hexagons > li:nth-child(12n + 7),
+ul.hexagons > li:nth-child(12n + 8),
+ul.hexagons > li:nth-child(12n + 9),
+ul.hexagons > li:nth-child(12n + 10),
+ul.hexagons > li:nth-child(12n + 11),
+ul.hexagons > li:nth-child(12n + 12)
+{
+  margin-left: calc(var(--hex-width) / 2 + var(--hex-between) / 2);
 }
