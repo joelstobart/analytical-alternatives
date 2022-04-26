@@ -483,7 +483,7 @@ pre tt:after {
 body main {
   scroll-behavior: smooth;
 }
-section {
+section, footer {
   --glitch-height: 80vh;
   height: var(--glitch-height);
 }
@@ -492,8 +492,10 @@ section.black {
   background-color:black;
 }
 
+section.grey, footer {
+  background-color: #181b19;
+}
 section.grey {
-  background-color:#181b19;
   background-image: url("../images/hexagon.svg");
   background-position: top right;
   background-repeat: no-repeat;
@@ -502,9 +504,9 @@ section.grey {
 .london {
   --color-text: #aaa;
   --color-bg: #000;
-  --color-link: #1c1cc9;
+  --color-link: #1e7e04;
   --color-link-hover: #aaa;
-  --color-info: #1c1cc9;
+  --color-info: #1e7e04;
   --glitch-width: 100vw;
   --gap-horizontal: 10px;
   --gap-vertical: 5px;
@@ -519,8 +521,8 @@ section.grey {
   --blend-color-1: transparent;
   --blend-color-2: transparent;
   --blend-color-3: transparent;
-  --blend-color-4: #fb909a;
-  --blend-color-5: #1c1cc9;
+  --blend-color-4: #aefb90;
+  --blend-color-5: #255718;
 }
 
 
@@ -905,7 +907,7 @@ section.grey {
   --hex-transition: all .2s ease;
 
   --color-hex-default: rgba(71, 71, 71, 0.6);
-  --color-hex-hover:   rgba(71, 71, 71, 0.4);
+  --color-hex-hover:   rgba(71, 191, 71, 0.3);
 }
 
 ul.hexagons {
@@ -977,4 +979,66 @@ ul.hexagons > li:nth-child(12n + 11),
 ul.hexagons > li:nth-child(12n + 12)
 {
   margin-left: calc(var(--hex-width) / 2 + var(--hex-between) / 2);
+  top: -10px;
+}
+
+ul.hexagons > li:nth-child(12n + 13),
+ul.hexagons > li:nth-child(12n + 14),
+ul.hexagons > li:nth-child(12n + 15),
+ul.hexagons > li:nth-child(12n + 16),
+ul.hexagons > li:nth-child(12n + 17),
+ul.hexagons > li:nth-child(12n + 18)
+{
+  top: -20px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0.5rem 1.0875rem;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+h2 > a {
+  font-family: "Courier New";
+  font-weight: lighter;
+  color: white;
+  text-shadow: 0 0 22px #64ce5c, 0 0 30px #64ce5c, 0 0 40px #64ce5c;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  font-family: Calibri, sans-serif; font-size: 18px;
+}
+
+input, button {
+  font-family:Calibri, Sans-serif;
+  color:white;
+  border: 3px solid #484d49;
+  background-color: #161617;
+  line-height: 30px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+button[type=submit] {
+  border-color: #64ce5c;
+}
+
+button[type=submit]:hover {
+  background-color: rgba(100, 206, 92, 0.3);
+}
+
+textarea {
+  font-family:Calibri, Sans-serif;
+  color:white;
+  border: 3px solid #484d49;
+  background-color: #161617;
+  line-height: 30px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
 }

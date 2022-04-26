@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import ContactForm from "../components/contactform"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -20,75 +21,31 @@ const IndexPage = () => (
                   <div className="glitch__img"></div>
               </div>
           </section>
-          <section className={"black"}>
-
-          <div
-              style={{
-                  margin: `0 auto`,
-                  maxWidth: 960,
-                  padding: `1.45rem 1.0875rem`,
-                  paddingTop: `20vh`,
-                  textAlign: `center`
-              }}
-          >
-              <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
-                  <Link
-                      to="/"
-                      style={{
-                          fontFamily: `Courier New` ,
-                          fontWeight: `lighter`,
-                          color: `white`,
-                          textShadow: `0 0 22px #64ce5c, 0 0 30px #64ce5c, 0 0 40px #64ce5c`,
-                          textDecoration: `none`
-                      }}
-                  >
-                      no nonsense.
-                  </Link>
-              </h2>
-              <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
-                  A trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients.  Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors. We believe in a ‘no-nonsense’, honest and open approach to our work and as such are widely respected.
-              </p>
-          </div>
-
+          <section className={"black"} style={{paddingTop:`10vh`}}>
+              <div className={`container`}>
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
+                      <Link to="/">
+                          no nonsense.
+                      </Link>
+                  </h2>
+                  <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
+                      A trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients.  Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors. We believe in a ‘no-nonsense’, honest and open approach to our work and as such are widely respected.
+                  </p>
+              </div>
           </section>
           <section style={{
               backgroundImage: `url(${island})`,
               backgroundSize: `cover`,
               backgroundPosition: `center`}}>
-              <div
-                  style={{
-                      margin: `0 auto`,
-                      maxWidth: 960,
-                      padding: `1.45rem 1.0875rem`,
-                      paddingTop: `15vh`,
-                      textAlign: `center`
-                  }}
-              >
-              <img src={quill} height={`60%`}/>
+              <div className={"container"}>
+                <img alt={"QUILL is defined as Q, U, I, L, L"} src={quill} height={`60%`}/>
               </div>
       </section>
 
           <section className={"grey"}>
-              <div
-                  style={{
-                      margin: `0 auto`,
-                      maxWidth: 960,
-                      padding: `0.5rem 1.0875rem`,
-                      paddingTop: `5vh`,
-                      textAlign: `center`
-                  }}
-              >
+              <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
-                      <Link
-                          to="/"
-                          style={{
-                              fontFamily: `Courier New` ,
-                              fontWeight: `lighter`,
-                              color: `white`,
-                              textShadow: `0 0 22px #64ce5c, 0 0 30px #64ce5c, 0 0 40px #64ce5c`,
-                              textDecoration: `none`
-                          }}
-                      >
+                      <Link to="/">
                           some of what we do.
                       </Link>
                   </h2>
@@ -181,6 +138,19 @@ const IndexPage = () => (
                       </ul>
                   </div>
               </div>
+          </section>
+
+          <section className={"black"} style={{paddingTop:`10vh`}}>
+              <div className={`container`}>
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
+                      <Link to="/">
+                          open comms.
+                      </Link>
+                  </h2>
+                  <p>Data Processing: We will use this information only to respond to your query</p>
+                 <ContactForm/>
+              </div>
+
           </section>
       </main>
   </Layout>
