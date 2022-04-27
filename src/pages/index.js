@@ -25,11 +25,11 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
                       <Link to="/">
-                          no nonsense.
+                          No nonsense.
                       </Link>
                   </h2>
                   <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
-                      A trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients.  Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors. We believe in a ‘no-nonsense’, honest and open approach to our work and as such are widely respected.
+                      A trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients.  Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors. We believe in a no-nonsense, honest and open approach to our work and as such are widely respected.
                   </p>
               </div>
           </section>
@@ -46,10 +46,11 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          some of what we do.
+                          Core services
                       </Link>
                   </h2>
-                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "18px"}}>In the 20+ years since AAL was established we have progressively been asked to help our clients perform more varied tasks in more challenging environments to further their business aims. These tasks include but are not limited to:</p>
+                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>
+                      Since 2002 AAL has progressively been asked to help our clients perform more varied tasks in more challenging environments to further their business aims. These tasks include but are not limited to:</p>
                   <div className={`hexagonContainer`}>
                       <ul className={`hexagons`}>
                           <li>
@@ -135,6 +136,30 @@ const IndexPage = () => (
                                   Referral to Law Enforcement or Civil Legal Partners
                               </div>
                           </li>
+                          <li>
+                              <div>
+                                 Brand Protection
+                              </div>
+                          </li>
+
+                          <li>
+                              <div>
+                                  Country Risk
+                              </div>
+                          </li>
+
+                          <li>
+                              <div>
+                                  Travel Risk
+                              </div>
+                          </li>
+
+                          <li>
+                              <div>
+                                  Counter Fraud
+                              </div>
+                          </li>
+
                       </ul>
                   </div>
               </div>
@@ -144,7 +169,7 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          open comms.
+                          Open communications
                       </Link>
                   </h2>
                   <p>Data Processing: We will use this information only to respond to your query</p>

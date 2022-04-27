@@ -495,6 +495,7 @@ section.black {
 section.grey, footer {
   background-color: #181b19;
 }
+
 section.grey {
   background-image: url("../images/hexagon.svg");
   background-position: top right;
@@ -897,7 +898,7 @@ section.grey {
 }
 
 .hexagonContainer {
-  --hex-width: 130px;
+  --hex-width: 115px;
   --hex-between: 5px;
 
   /* Other hexagon dimentions */
@@ -913,8 +914,8 @@ section.grey {
 ul.hexagons {
   list-style: none;
   display: grid;
-  grid-template-columns: var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width);
-  grid-auto-rows: calc(var(--hex-width) - 35px/6 );
+  grid-template-columns: var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width) var(--hex-width)  var(--hex-width);
+  grid-auto-rows: calc(var(--hex-width) - 35px/7 );
   grid-gap: var(--hex-between) var(--hex-between);
   padding-bottom: var(--hex-border);
 }
@@ -971,25 +972,34 @@ ul.hexagons > li:hover::before {
   border-bottom-color: var(--color-hex-hover);
 }
 
-ul.hexagons > li:nth-child(12n + 7),
-ul.hexagons > li:nth-child(12n + 8),
-ul.hexagons > li:nth-child(12n + 9),
-ul.hexagons > li:nth-child(12n + 10),
-ul.hexagons > li:nth-child(12n + 11),
-ul.hexagons > li:nth-child(12n + 12)
+ul.hexagons > li:nth-child(8),
+ul.hexagons > li:nth-child(9),
+ul.hexagons > li:nth-child(10),
+ul.hexagons > li:nth-child(11),
+ul.hexagons > li:nth-child(12),
+ul.hexagons > li:nth-child(13),
+ul.hexagons > li:nth-child(14)
 {
   margin-left: calc(var(--hex-width) / 2 + var(--hex-between) / 2);
   top: -10px;
 }
 
-ul.hexagons > li:nth-child(12n + 13),
-ul.hexagons > li:nth-child(12n + 14),
 ul.hexagons > li:nth-child(12n + 15),
 ul.hexagons > li:nth-child(12n + 16),
 ul.hexagons > li:nth-child(12n + 17),
-ul.hexagons > li:nth-child(12n + 18)
+ul.hexagons > li:nth-child(12n + 18),
+ul.hexagons > li:nth-child(12n + 19),
+ul.hexagons > li:nth-child(12n + 20),
+ul.hexagons > li:nth-child(12n + 21)
+
 {
   top: -20px;
+}
+ul.hexagons > li:nth-child(12n + 22),
+ul.hexagons > li:nth-child(12n + 23),
+ul.hexagons > li:nth-child(12n + 24)
+{
+  top: -30px;
 }
 
 .container {
