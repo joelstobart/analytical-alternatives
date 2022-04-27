@@ -38,7 +38,12 @@ const IndexPage = () => (
               backgroundSize: `cover`,
               backgroundPosition: `center`}}>
               <div className={"container"}>
-                <img alt={"QUILL is defined as Q, U, I, L, L"} src={quill} height={`60%`}/>
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
+                      <Link to="/">
+                          We protect what is important to you
+                      </Link>
+                  </h2>
+                <img alt={"QUILL is defined as Q, U, I, L, L"} src={quill} height={`450px`}/>
               </div>
       </section>
 
