@@ -25,7 +25,7 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
                       <Link to="/">
-                          No nonsense.
+                          no nonsense
                       </Link>
                   </h2>
                   <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
@@ -40,10 +40,10 @@ const IndexPage = () => (
               <div className={"container"}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          We protect what is important to you
+                          our values
                       </Link>
                   </h2>
-                <img alt={"QUILL is defined as Q, U, I, L, L"} src={quill} height={`450px`}/>
+                <img alt={"QUILL is defined as Quality, Uniformity, Integrity, Legality, Loyalty"} src={quill} height={`450px`}/>
               </div>
       </section>
 
@@ -51,7 +51,7 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          Core services
+                          core services
                       </Link>
                   </h2>
                   <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>
@@ -174,10 +174,10 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          Open communications
+                          open communications
                       </Link>
                   </h2>
-                  <p>Data Processing: We will use this information only to respond to your query</p>
+                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>Data Processing: We will use this information only to respond to your query</p>
                  <ContactForm/>
               </div>
 

@@ -1023,6 +1023,12 @@ p {
   font-family: Calibri, sans-serif; font-size: 18px;
 }
 
+section > div > ul > li {
+  color: white;
+  font-family: Calibri, sans-serif;
+  font-size: 18px;
+}
+
 input, button {
   font-family:Calibri, Sans-serif;
   color:white;
@@ -1036,6 +1042,7 @@ input, button {
 
 button[type=submit] {
   border-color: #64ce5c;
+  cursor: pointer;
 }
 
 button[type=submit]:hover {
@@ -1051,4 +1058,22 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 5px;
+}
+
+footer > .container > address, footer > .container > div {
+  color:silver;
+  font-style: normal;
+  color:silver;
+  font-family: Calibri, sansSerif;
+  font-size: 18px;
+  font-style: normal;
+}
+
+footer > .container > address {
+  margin-bottom: 0;
+}
+
+footer > .container > div > span > a, footer > .container > div > div > a {
+  color: white;
+  text-decoration: none;
 }
