@@ -8,7 +8,7 @@
     "@formspree/react": "^2.2.4",
     "@fortawesome/pro-duotone-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
-    "gatsby": "^4.13.0",
+    "gatsby": "^4.13.1",
     "gatsby-plugin-gatsby-cloud": "^4.13.0",
     "gatsby-plugin-image": "^2.13.0",
     "gatsby-plugin-manifest": "^4.13.0",
@@ -19,11 +19,12 @@
     "gatsby-source-filesystem": "^4.13.0",
     "gatsby-transformer-sharp": "^4.13.0",
     "prop-types": "^15.8.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-sticky": "^6.0.3",
-    "sass": "^1.51.0"
+    "sass": "^1.51.0",
+    "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
     "prettier": "^2.6.2"

@@ -6,13 +6,14 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import island from "../images/island.webp"
 import quill from "../images/quill.svg"
+import WhereAndWhen from "../components/whereandwhen"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
       <main>
           <section className="london imgloaded">
-
+              <WhereAndWhen></WhereAndWhen>
               <div id={"london"} className="glitch">
                   <div className="glitch__img"></div>
                   <div className="glitch__img"></div>
