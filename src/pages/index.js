@@ -6,22 +6,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import island from "../images/island.webp"
 import quill from "../images/quill.svg"
-import WhereAndWhen from "../components/whereandwhen"
+import London from "../components/london"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
       <main>
-          <section className="london imgloaded">
-              <WhereAndWhen></WhereAndWhen>
-              <div id={"london"} className="glitch">
-                  <div className="glitch__img"></div>
-                  <div className="glitch__img"></div>
-                  <div className="glitch__img"></div>
-                  <div className="glitch__img"></div>
-                  <div className="glitch__img"></div>
-              </div>
-          </section>
+          <London></London>
           <section className={"black"} style={{paddingTop:`10vh`}}>
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
@@ -30,7 +21,14 @@ const IndexPage = () => (
                       </Link>
                   </h2>
                   <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
-                      A trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients.  Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors. We believe in a no-nonsense, honest and open approach to our work and as such are widely respected.
+                      We believe in a no-nonsense, honest and open approach to our work which is underpinned by our core values
+                      and is widely respected by our clients.
+
+                      We are a trusted, global risk management consultancy that has considerable experience in providing
+                      market-leading specialist intelligence and investigations services to its clients.
+                      Each client is provided a solution based on our unique convergence of diverse disciplines from
+                      both public and private sectors. We believe in a no-nonsense, honest and open approach to our work
+                      and as such are widely respected.
                   </p>
               </div>
           </section>
@@ -56,7 +54,9 @@ const IndexPage = () => (
                       </Link>
                   </h2>
                   <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>
-                      Since 2002 AAL has progressively been asked to help our clients perform more varied tasks in more challenging environments to further their business aims. These tasks include but are not limited to:</p>
+                      Since 2002 AAL has progressively been asked to help our clients perform increasingly
+                      varied tasks in more challenging environments to further their business aims.
+                      These tasks include but are not limited to:</p>
                   <div className={`hexagonContainer`}>
                       <ul className={`hexagons`}>
                           <li>

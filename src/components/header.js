@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 
+import { Link } from "gatsby"
 import aal from "../images/analytical-white.svg"
 
 const Header = () => (
@@ -22,7 +23,7 @@ const Header = () => (
                   paddingBottom: `3vh`,
                   textAlign: `center`
           }}>
-              <img src={aal} height={`80vh`} align={`center`} alt={`Analytical Alternatives Logo`}/>
+              <Link to={"/"}><img src={aal} height={`80vh`} align={`center`} alt={`Analytical Alternatives Logo`}/></Link>
           </div>
       </div>
   </header>

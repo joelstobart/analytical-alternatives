@@ -3,21 +3,14 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import London from "../components/london"
+
 
 const StandardsPage = () => (
     <Layout>
         <Seo title="Home" />
         <main>
-            <section className="london imgloaded">
-
-                <div id={"london"} className="glitch">
-                    <div className="glitch__img"></div>
-                    <div className="glitch__img"></div>
-                    <div className="glitch__img"></div>
-                    <div className="glitch__img"></div>
-                    <div className="glitch__img"></div>
-                </div>
-            </section>
+            <London></London>
             <section className={"black"} style={{height:"auto"}}>
                 <div className={"container"} style={{textAlign:`left`}}>
                     <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
@@ -32,19 +25,13 @@ const StandardsPage = () => (
                     <ul>
                         <li>General Data Protection Regulation (2018)</li>
                         <li>Bribery Act (2010)</li>
-                        <li>
-                        Foreign & Corrupt Practices Act</li>
-                        <li>
-                        Criminal Justice Act (2003)</li>
-                        <li>
-                        Police and Criminal Evidence Act (1984)</li>
-                        <li>
-                        European Convention on Human Rights</li>
-                        <li>
-                        Data Protection Act (2018)</li>
-                        <li>
-                        Privacy & Electronic Communications regulations (2003)</li>
-
+                        <li>Foreign Corrupt Practices Act (1977)</li>
+                        <li>Criminal Justice Act (2003)</li>
+                        <li>Police and Criminal Evidence Act (1984)</li>
+                        <li>European Convention on Human Rights and the Human Rights Act (1998)</li>
+                        <li>Data Protection Act (2018)</li>
+                        <li>Privacy and Electronic Communications (EC Directive) Regulations (2003)</li>
+                        <li>Computer Misuse Act (1990)</li>
                     </ul>
                     <p>
                     Additionally, we voluntarily conform to the standards required by the Regulation of Investigatory Powers Act (2000) and we are ever mindful to avoid actions, which could be considered to be entrapment or those of an Agent Provocateur.

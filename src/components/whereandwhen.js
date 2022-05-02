@@ -4,19 +4,23 @@ import React from 'react';
 import Typewriter from "typewriter-effect";
 import './whereandwhen.css';
 
+function getDate() {
+    return new Date()
+        .toLocaleString('en-GB', { hour:'2-digit', minute:'2-digit', second:'2-digit', timeZoneName: 'short', year: 'numeric', month: 'short', day: '2-digit' })
+        .toUpperCase();
+}
+
 function WhereAndWhen() {
     return (
         <div className="WhereAndWhen">
             <Typewriter
-                options={{loop:true}}
+                options={{loop:true, devMode:true}}
                 onInit={(typewriter)=> {
-                    const date = new Date();
-                    const dateString = date.toUTCString().toUpperCase()
                     typewriter
-                        .typeString(dateString)
+                        .typeString(getDate())
                         .pauseFor(600)
                         .deleteAll()
-                        .typeString(" 30UXC9957009343")
+                        .typeString("30UXC9957009343")
                         .pauseFor(600)
                         .deleteAll()
                         .typeString("CENTRAL LONDON, ")

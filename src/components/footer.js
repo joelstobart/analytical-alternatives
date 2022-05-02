@@ -18,13 +18,13 @@ const Footer = () => (
           <div>
               <span className={"telephone"}><FontAwesomeIcon icon={faPhoneRotary} />&nbsp;<a href="tel:+44128530110">+44 (0) 1628 530110</a></span>
               &nbsp; &nbsp; &nbsp;
-              <span className={"securesend"}><FontAwesomeIcon icon={faFileShield} />&nbsp;Securely share files with us via Secure Send</span>
+              <span className={"securesend"}><FontAwesomeIcon icon={faFileShield} />&nbsp;Ask to share files with us via Secure Send</span>
           </div>
 
           <div style={{marginTop: `5vh`}}>
               <span className={"cookies"}><FontAwesomeIcon icon={faCookieBite} />&nbsp;
-                  Cookies: We work hard to protect your privacy and cookie banners are annoying.
-                  So we don't use non essential cookies.
+                  Cookies: We work hard to protect your privacy and cookie banners are tiresome.
+                  We don't use non essential cookies.
               </span>
 
           </div>
@@ -33,7 +33,7 @@ const Footer = () => (
               <span>
               <FontAwesomeIcon icon={faHandshakeAngle} /> We commit to the highest <Link to={"standards"}>investigative, ethical and legal standards</Link>
                   , <Link to={"standards"}>professional standards including ISO 9001:2015 certified</Link>
-                  , <Link to={"standards"}>information security standards</Link>, safeguarding your data and to ensuring your privacy.
+                  , <Link to={"standards"}>information security standards</Link>, safeguarding your data and ensuring your privacy.
               </span>
           </div>
 
