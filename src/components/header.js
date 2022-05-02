@@ -14,7 +14,7 @@ const Header = () => (
       <div style={{
           height: `15vh`,
           marginTop:`-15vh`,
-          backgroundColor: `rgba(0,0,0,0.1)`,
+          background: `linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 70%, rgba(0,0,0,0.0) 100%)`,
           color: `#a7a7a7`}}>
           <div style={{
                   margin:`0 auto`,

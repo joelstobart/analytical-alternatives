@@ -1,6 +1,7 @@
 import React from 'react';
 import WhereAndWhen from "./whereandwhen";
 
+import "./london.css"
 function London() {
     return (
         <section className="london imgloaded">

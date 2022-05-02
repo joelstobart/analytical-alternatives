@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import island from "../images/island.webp"
 import quill from "../images/quill.svg"
 import London from "../components/london"
+import Hexagons from "../components/hexagons"
 
 const IndexPage = () => (
   <Layout>
@@ -44,9 +45,9 @@ const IndexPage = () => (
                   </h2>
                 <img alt={"QUILL is defined as Quality, Uniformity, Integrity, Legality, Loyalty"} src={quill} height={`450px`}/>
               </div>
-      </section>
+          </section>
 
-          <section className={"grey"}>
+          <section className={"grey hexagon"}>
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
@@ -57,117 +58,7 @@ const IndexPage = () => (
                       Since 2002 AAL has progressively been asked to help our clients perform increasingly
                       varied tasks in more challenging environments to further their business aims.
                       These tasks include but are not limited to:</p>
-                  <div className={`hexagonContainer`}>
-                      <ul className={`hexagons`}>
-                          <li>
-                              <div>Threat Assessment</div>
-                          </li>
-                          <li>
-                              <div>
-                                  Due Diligence
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Regular Risk Monitoring
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Clear and Darknet Monitoring
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Domain Name Monitoring
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Online Takedowns
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Covert Engagement
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Evidential Test Purchasing
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Bulk non-evidential test purchasing
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Intelligence Profiling
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Secure Chain of Custody & Evidence Handling
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Investigation Management
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  In-country Market Survey
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Surveillance
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Intelligence Analysis
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Vulnerability Assessments
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                  Referral to Law Enforcement or Civil Legal Partners
-                              </div>
-                          </li>
-                          <li>
-                              <div>
-                                 Brand Protection
-                              </div>
-                          </li>
-
-                          <li>
-                              <div>
-                                  Country Risk
-                              </div>
-                          </li>
-
-                          <li>
-                              <div>
-                                  Travel Risk
-                              </div>
-                          </li>
-
-                          <li>
-                              <div>
-                                  Counter Fraud
-                              </div>
-                          </li>
-
-                      </ul>
-                  </div>
+                  <Hexagons/>
               </div>
           </section>
 
