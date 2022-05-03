@@ -11,7 +11,7 @@ import Hexagons from "../components/hexagons"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Analytical Alternatives" />
       <main>
           <London></London>
           <section className={"black"} style={{paddingTop:`10vh`}}>

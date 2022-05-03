@@ -8,7 +8,7 @@ import London from "../components/london"
 
 const StandardsPage = () => (
     <Layout>
-        <Seo title="Home" />
+        <Seo title="Standards" />
         <main>
             <London></London>
             <section className={"black"} style={{height:"auto"}}>
