@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Analytical Alternatives`,
+    description: `Analytical Alternatives are a trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients. Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors.`,
+    author: `@technoclasm`,
+    siteUrl: `https://www.analyticalalternatives.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
