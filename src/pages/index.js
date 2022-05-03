@@ -22,14 +22,11 @@ const IndexPage = () => (
                       </Link>
                   </h2>
                   <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
-                      We believe in a no-nonsense, honest and open approach to our work which is underpinned by our core values
-                      and is widely respected by our clients.
-
                       We are a trusted, global risk management consultancy that has considerable experience in providing
                       market-leading specialist intelligence and investigations services to its clients.
                       Each client is provided a solution based on our unique convergence of diverse disciplines from
                       both public and private sectors. We believe in a no-nonsense, honest and open approach to our work
-                      and as such are widely respected.
+                      which is underpinned by our core values and is widely respected by our clients.
                   </p>
               </div>
           </section>
