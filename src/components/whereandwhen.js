@@ -14,7 +14,7 @@ function WhereAndWhen() {
     return (
         <div className="WhereAndWhen">
             <Typewriter
-                options={{loop:true, devMode:true}}
+                options={{loop:true}}
                 onInit={(typewriter)=> {
                     typewriter
                         .typeString(getDate())
