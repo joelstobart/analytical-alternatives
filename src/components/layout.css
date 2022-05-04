@@ -524,12 +524,12 @@ input, button {
 }
 
 button[type=submit] {
-  border-color: #64ce5c;
+  border-color: #304c2b;
   cursor: pointer;
 }
 
 button[type=submit]:hover {
-  background-color: rgba(100, 206, 92, 0.3);
+  background-color: #304c2b;
 }
 
 textarea {
