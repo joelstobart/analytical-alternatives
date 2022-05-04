@@ -1,8 +1,8 @@
 #london {
     --primary-accent: white;
     --primary-shadow: 0 0 22px white, 0 0 30px white, 0 0 40px white;
-    --secondary-accent: #64ce5c;
-    --secondary-shadow: 0 0 22px #64ce5c, 0 0 30px #64ce5c, 0 0 40px #64ce5c;
+    --secondary-accent: #294D27;
+    --secondary-shadow: 0 0 22px rgb(71, 191, 71), 0 0 30px rgb(71, 191, 71), 0 0 40px rgb(71, 191, 71);
 }
 
 #london > div > h1 > a {
@@ -35,9 +35,9 @@
 .london {
     --color-text: #aaa;
     --color-bg: #000;
-    --color-link: #1e7e04;
+    --color-link: rgb(71, 191, 71, 0.3);
     --color-link-hover: #aaa;
-    --color-info: #1e7e04;
+    --color-info: rgb(71, 191, 71, 0.3);
     --glitch-height: 80vh;
     --glitch-width: 100vw;
     --gap-horizontal: 10px;
@@ -53,8 +53,8 @@
     --blend-color-1: transparent;
     --blend-color-2: transparent;
     --blend-color-3: transparent;
-    --blend-color-4: #aefb90;
-    --blend-color-5: #255718;
+    --blend-color-4: rgba(71, 191, 71, 0.5);
+    --blend-color-5: rgba(71, 191, 71, 0.5);
 }
 
 
