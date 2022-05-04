@@ -6,14 +6,14 @@ import aal from "../images/analytical-white.svg"
 
 const Header = () => (
   <header style={{
-      height: `15vh`,
+      height: `120px`,
       top:-1,
       position:`sticky`,
       zIndex:999
   }}>
       <div style={{
-          height: `15vh`,
-          marginTop:`-15vh`,
+          height: `120px`,
+          marginTop:`-120px`,
           background: `linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 70%, rgba(0,0,0,0.0) 100%)`,
           color: `#a7a7a7`}}>
           <div style={{
@@ -23,7 +23,7 @@ const Header = () => (
                   paddingBottom: `3vh`,
                   textAlign: `center`
           }}>
-              <Link to={"/"}><img src={aal} height={`80vh`} align={`center`} alt={`Analytical Alternatives Logo`}/></Link>
+              <Link to={"/"}><img src={aal} height={`80`} width={`307`} align={`center`} alt={`Analytical Alternatives Logo`}/></Link>
           </div>
       </div>
   </header>
