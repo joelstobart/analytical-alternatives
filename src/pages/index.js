@@ -4,8 +4,7 @@ import ContactForm from "../components/contactform"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import island from "../images/island.webp"
-import quill from "../images/quill.svg"
+import island from "../images/map_outline.webp"
 import London from "../components/london"
 import Hexagons from "../components/hexagons"
 
@@ -35,18 +34,26 @@ const IndexPage = () => (
               backgroundSize: `cover`,
               backgroundPosition: `center`}}>
               <div className={"container"}>
-                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
                       <Link to="/">
                           our values
                       </Link>
                   </h2>
-                <img alt={"QUILL is defined as Quality, Uniformity, Integrity, Legality, Loyalty"} src={quill} height={`450px`}/>
+                <div style={{height: `450px`, textAlign:`left`, color:`rgb(90 142 78)`, fontFamily:`courier new, sans serif`, marginTop:`15vh`, fontWeight:`lighter`}}>
+                    <ul style={{listStyle:`none`, fontSize:`32px`, lineHeight:`140%`}}>
+                        <li>QUALITY</li>
+                        <li>UNIFORMITY</li>
+                        <li>INTEGRITY</li>
+                        <li>LOYALTY</li>
+                        <li>LEGALITY</li>
+                    </ul>
+                </div>
               </div>
           </section>
 
           <section className={"grey hexagon"}>
               <div className={`container`}>
-                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
+                  <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
                       <Link to="/">
                           core services
                       </Link>
