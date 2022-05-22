@@ -29,18 +29,17 @@ const IndexPage = () => (
                   </p>
               </div>
           </section>
-          <section style={{
-              backgroundImage: `url(${island})`,
-              backgroundSize: `cover`,
-              backgroundPosition: `center`}}>
+          <section style={{backgroundImage: `url(${island})`}}
+                   id={`island`}
+          >
               <div className={"container"}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `60px`}}>
                       <Link to="/">
                           our values
                       </Link>
                   </h2>
-                <div style={{height: `450px`, textAlign:`left`, color:`rgb(90 142 78)`, fontFamily:`courier new, sans serif`, marginTop:`15vh`, fontWeight:`lighter`}}>
-                    <ul style={{listStyle:`none`, fontSize:`32px`, lineHeight:`140%`}}>
+                <div className={"list"} >
+                    <ul>
                         <li>QUALITY</li>
                         <li>UNIFORMITY</li>
                         <li>INTEGRITY</li>

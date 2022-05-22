@@ -560,3 +560,27 @@ footer > .container > div > span > a, footer > .container > div > div > a {
   color: white;
   text-decoration: none;
 }
+
+
+section#island  {
+  background-size: cover;
+  background-position: center
+}
+
+section#island div.list > ul {
+  list-style: none;
+  font-size: 32px;
+  line-height: 140%
+}
+section#island div.list {
+  height: 450px;
+  text-align: left;
+  color:  rgb(90 142 78);
+  font-family: "Courier New", sans-serif;
+  margin-top: 15vh;
+  font-weight: lighter
+}
+
+section#island div.list > ul > li::first-letter {
+  color:white;
+}
