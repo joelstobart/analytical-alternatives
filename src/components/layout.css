@@ -502,8 +502,8 @@ h2 > a {
 
 p {
   color: white;
-  font-family: "Calibri",
-  sans-serif; font-size: 18px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
 }
 
 section > div > ul > li {
@@ -546,10 +546,8 @@ textarea {
 footer > .container > address, footer > .container > div {
   color:silver;
   font-style: normal;
-  color:silver;
-  font-family: Calibri, sansSerif;
+  font-family: "Calibri", sans-serif;
   font-size: 18px;
-  font-style: normal;
 }
 
 footer > .container > address {
