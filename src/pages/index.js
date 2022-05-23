@@ -20,7 +20,7 @@ const IndexPage = () => (
                           no nonsense
                       </Link>
                   </h2>
-                  <p style={{ color:`white`, fontFamily:`calibri, Sans-serif`, fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
+                  <p style={{ fontSize: `26px`, textAlign:`left`, lineHeight:`1.4em`}}>
                       We are a trusted, global risk management consultancy that has considerable experience in providing
                       market-leading specialist intelligence and investigations services to its clients.
                       Each client is provided a solution based on our unique convergence of diverse disciplines from
@@ -57,7 +57,7 @@ const IndexPage = () => (
                           core services
                       </Link>
                   </h2>
-                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>
+                  <p style={{fontSize: "26px"}}>
                       Since 2002 AAL has progressively been asked to help our clients perform increasingly
                       varied tasks in more challenging environments to further their business aims.
                       These tasks include but are not limited to:</p>
@@ -72,7 +72,7 @@ const IndexPage = () => (
                           open communications
                       </Link>
                   </h2>
-                  <p style={{ color: `white`, fontFamily: "Calibri, sansSerif", fontSize: "26px"}}>Data Processing: We will use this information only to respond to your query</p>
+                  <p style={{fontSize: "26px"}}>Data Processing: We will use this information only to respond to your query</p>
                  <ContactForm/>
               </div>
 
