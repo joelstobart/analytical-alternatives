@@ -14,11 +14,12 @@
     --color-hex-hover:   rgba(71, 191, 71, 0.3);
 }
 
-ul.hexagons > li > div {
+ul.hexagons > li > a {
     color:white;
     font-family: calibri, Arial, sans-serif;
     font-size: 14px;
     line-height: 12px;
+    text-decoration: none;
 }
 
 ul.hexagons > li:hover {
@@ -38,8 +39,9 @@ ul.hexagons > li:hover {
         padding: 15px;
     }
 
-    ul.hexagons > li > div {
+    ul.hexagons > li > a {
         color: white;
+        text-decoration: none;
     }
 }
 

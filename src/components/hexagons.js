@@ -1,115 +1,113 @@
 import React from 'react';
 
 import "./hexagons.css"
+import {Link} from "gatsby";
 function Hexagons() {
     return (
             <div className={`hexagonContainer`}>
                 <ul className={`hexagons`}>
                     <li>
-                        <div>Threat Assessment</div>
+                        <Link to={"#contactForm"}>Threat Assessment</Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Due Diligence
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Regular Risk Monitoring
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Clear and Darknet Monitoring
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Domain Name Monitoring
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Online Takedowns
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Covert Engagement
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Evidential Test Purchasing
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Bulk non-evidential test purchasing
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Intelligence Profiling
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
-                            Secure Chain of Custody & Evidence Handling
-                        </div>
+                        <Link to={"#contactForm"}>
+                            Secure Chain of Custody &amp; Evidence Handling
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Investigation Management
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             In-country Market Survey
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Surveillance
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Intelligence Analysis
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Vulnerability Assessments
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Referral to Law Enforcement or Civil Legal Partners
-                        </div>
+                        </Link>
                     </li>
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Brand Protection
-                        </div>
+                        </Link>
                     </li>
-
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Country Risk
-                        </div>
+                        </Link>
                     </li>
-
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Travel Risk
-                        </div>
+                        </Link>
                     </li>
-
                     <li>
-                        <div>
+                        <Link to={"#contactForm"}>
                             Counter Fraud
-                        </div>
+                        </Link>
                     </li>
                 </ul>
             </div>);

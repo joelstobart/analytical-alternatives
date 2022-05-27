@@ -65,7 +65,7 @@ const IndexPage = () => (
               </div>
           </section>
 
-          <section className={"black"} style={{paddingTop:`10vh`}}>
+          <section  id={"contactForm"} className={"black"} style={{paddingTop:`10vh`}}>
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
