@@ -65,6 +65,31 @@ const IndexPage = () => (
               </div>
           </section>
 
+          <section style={{backgroundImage: `url(${island})`}}
+                   id={`island`}
+          >
+              <div className={"container"}>
+                  <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
+                      <Link to="/">
+                         Mission Statement
+                      </Link>
+                  </h2>
+                  <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
+                      Our unique support to large corporations and global brands, seeks to identify,
+                      reduce and ultimately remove the threats they face and define a robust global
+                      strategy for investigation and enforcement.</p>
+                  <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
+                      <Link to="/">
+                          Vision Statement
+                      </Link>
+                  </h2>
+                  <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
+                      By taking steps to identify and remove bad actors in sales channels and
+                      reducing the perpetually developing threats, our vision is to make the world
+                      safer for consumers and patients alike and guard against unnecessary energy and spend.</p>
+              </div>
+          </section>
+
           <section  id={"contactForm"} className={"black"} style={{paddingTop:`10vh`}}>
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
