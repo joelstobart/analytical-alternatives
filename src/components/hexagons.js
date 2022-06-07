@@ -5,113 +5,32 @@ import {Link} from "gatsby";
 function Hexagons() {
     return (
             <div className={`hexagonContainer`}>
-                <ul className={`hexagons`}>
-                    <li>
-                        <Link to={"#contactForm"}>Threat Assessment</Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Due Diligence
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Regular Risk Monitoring
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Clear and Darknet Monitoring
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Domain Name Monitoring
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Online Takedowns
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Covert Engagement
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Evidential Test Purchasing
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Bulk non-evidential test purchasing
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Intelligence Profiling
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Secure Chain of Custody &amp; Evidence Handling
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Investigation Management
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            In-country Market Survey
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Surveillance
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Intelligence Analysis
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Vulnerability Assessments
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Referral to Law Enforcement or Civil Legal Partners
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Brand Protection
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Country Risk
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Travel Risk
-                        </Link>
-                    </li>
-                    <li>
-                        <Link to={"#contactForm"}>
-                            Counter Fraud
-                        </Link>
-                    </li>
-                </ul>
+                <Link to={"#contactForm"}>
+                    <ul className={`hexagons`}>
+                        <li>Threat Assessment</li>
+                        <li>Due Diligence</li>
+                        <li>Regular Risk Monitoring</li>
+                        <li>Clear and Darknet Monitoring</li>
+                        <li>Domain Name Monitoring</li>
+                        <li>Online Takedowns</li>
+                        <li>Covert Engagement</li>
+                        <li>Evidential Test Purchasing</li>
+                        <li>Bulk non-evidential test purchasing</li>
+                        <li>Intelligence Profiling</li>
+                        <li>Secure Chain of Custody &amp; Evidence Handling</li>
+                        <li>Investigation Management</li>
+                        <li>In-country Market Survey</li>
+                        <li>Surveillance</li>
+                        <li>Intelligence Analysis</li>
+                        <li>Vulnerability Assessments</li>
+                        <li>Referral to Law Enforcement or Civil Legal Partners</li>
+                        <li>Brand Protection</li>
+                        <li>Country Risk</li>
+                        <li>Travel Risk</li>
+                        <li>Counter Fraud</li>
+                    </ul>
+                </Link>
             </div>);
-
 }
 
 export default Hexagons;

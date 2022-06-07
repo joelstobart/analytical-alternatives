@@ -13,8 +13,10 @@
     --color-hex-default: rgba(71, 71, 71, 0.6);
     --color-hex-hover:   rgba(71, 191, 71, 0.3);
 }
-
-ul.hexagons > li > a {
+.hexagonContainer a {
+    text-decoration: none;
+}
+a ul.hexagons > li {
     color:white;
     font-family: calibri, Arial, sans-serif;
     font-size: 14px;
