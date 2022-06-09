@@ -5,6 +5,7 @@ import ContactForm from "../components/contactform"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import island from "../images/map_outline.webp"
+import dark_beach from "../images/dark_beach.webp"
 import London from "../components/london"
 import Hexagons from "../components/hexagons"
 
@@ -65,8 +66,9 @@ const IndexPage = () => (
               </div>
           </section>
 
-          <section style={{backgroundImage: `url(${island})`}}
-                   id={`island`}
+          <section style={{backgroundImage: `url(${dark_beach})`,backgroundPosition: `center center`,
+              backgroundSize: `cover`}}
+                   id={`dark_beach`}
           >
               <div className={"container"}>
                   <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
