@@ -73,7 +73,7 @@ const IndexPage = () => (
               <div className={"container"}>
                   <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
                       <Link to="/">
-                         Mission Statement
+                         mission Statement
                       </Link>
                   </h2>
                   <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
@@ -82,7 +82,7 @@ const IndexPage = () => (
                       strategy for investigation and enforcement.</p>
                   <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
                       <Link to="/">
-                          Vision Statement
+                          vision Statement
                       </Link>
                   </h2>
                   <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
@@ -96,7 +96,7 @@ const IndexPage = () => (
               <div className={`container`}>
                   <h2 style={{ margin: `0 0 2rem 0`, fontSize: `40px`}}>
                       <Link to="/">
-                          open communications
+                          open communications with AAL
                       </Link>
                   </h2>
                   <p style={{fontSize: "26px"}}>Data Processing: We will use this information only to respond to your query</p>
