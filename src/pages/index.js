@@ -73,7 +73,7 @@ const IndexPage = () => (
               <div className={"container"}>
                   <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
                       <Link to="/">
-                         mission Statement
+                         mission statement
                       </Link>
                   </h2>
                   <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
@@ -82,7 +82,7 @@ const IndexPage = () => (
                       strategy for investigation and enforcement.</p>
                   <h2 style={{ margin: `0 0 1rem 0`, fontSize: `50px`}}>
                       <Link to="/">
-                          vision Statement
+                          vision statement
                       </Link>
                   </h2>
                   <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
