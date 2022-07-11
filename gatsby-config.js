@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://www.analyticalalternatives.com/`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
