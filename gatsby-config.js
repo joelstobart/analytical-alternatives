@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Analytical Alternatives global risk management consultancy`,
-    description: `Analytical Alternatives are a trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to its clients. Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors.`,
+    description: `Analytical Alternatives are a trusted, global risk management consultancy that has considerable experience in providing market-leading specialist intelligence and investigations services to clients. Each client is provided a solution based on our unique convergence of diverse disciplines from both public and private sectors.`,
     author: `@technoclasm`,
     siteUrl: `https://www.analyticalalternatives.com/`,
   },
