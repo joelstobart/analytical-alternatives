@@ -59,7 +59,7 @@ const IndexPage = () => (
                       </Link>
                   </h2>
                   <p style={{fontSize: "26px"}}>
-                      Since 2002 AAL has progressively been asked to help our clients perform increasingly
+                      Since 2002 AAL has progressively been asked to help clients perform increasingly
                       varied tasks in more challenging environments to further their business aims.
                       These tasks include but are not limited to:</p>
                   <Hexagons/>
