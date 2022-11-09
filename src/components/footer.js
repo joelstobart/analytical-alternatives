@@ -9,11 +9,10 @@ const Footer = () => (
           <address style={{marginTop: `1vh`}}>
               <FontAwesomeIcon icon={faHouseTurret} />&nbsp;
               Analytical Alternatives,
-              PO Box 3347,
-              Bourne End,
-              Buckinghamshire,
-              SL8 5WS,
-              United Kingdom
+              269 Farnborough Road,
+              Farnborough,
+              Hampshire
+              GU14 7LY
           </address>
           <div>
               <span className={"telephone"}><FontAwesomeIcon icon={faPhoneRotary} />&nbsp;<a href="tel:+44128530110">+44 (0) 1628 530110</a></span>
