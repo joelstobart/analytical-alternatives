@@ -31,8 +31,8 @@ const Footer = () => (
           </div>
 
           <div style={{marginTop: `5vh`}}>
-                <div style={{float:"left", height:"200px",marginRight:"20px"}}>
-                    <img src={`${iso}`} alt={"ISO 9001"}/>
+                <div style={{float:"left", marginRight:"20px"}}>
+                    <img src={`${iso}`} alt={"ISO 9001"} style={{height:"200px"}}/>
                 </div>
               <span>
                 <FontAwesomeIcon icon={faHandshakeAngle} /> We commit to the highest <Link to={"standards"}>investigative, ethical and legal standards</Link>
