@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import iso from "../images/iso9001.svg"
 import { faHouseTurret, faPhoneRotary, faFileShield, faCookieBite, faHandshakeAngle } from '@fortawesome/pro-duotone-svg-icons'
 const Footer = () => (
   <footer>
@@ -30,6 +31,9 @@ const Footer = () => (
           </div>
 
           <div style={{marginTop: `5vh`}}>
+                <div style={{float:"left", marginRight:"20px"}}>
+                    <img src={`${iso}`} alt={"ISO 9001"} style={{height:"140px"}}/>
+                </div>
               <span>
                 <FontAwesomeIcon icon={faHandshakeAngle} /> We commit to the highest <Link to={"standards"}>investigative, ethical and legal standards</Link>
                   , <Link to={"standards"}>professional standards including ISO 9001:2015 certified</Link>
