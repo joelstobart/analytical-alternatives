@@ -86,7 +86,7 @@ const IndexPage = () => (
                       </Link>
                   </h2>
                   <p style={{fontSize: `26px`, textAlign: `left`, lineHeight: `1.4em`}}>
-                      By taking steps to identify and remove bad actors in sales channels and
+                      By taking steps to identify and remove illicit competitors in sales channels and
                       reducing the perpetually developing threats, our vision is to make the world
                       safer for consumers and patients alike and guard against unnecessary energy and spend.</p>
               </div>
