@@ -1,40 +1,38 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import faHouseTurret from "../images/icons/house-turret-duotone.svg"
+import faPhoneRotary from "../images/icons/phone-rotary-duotone.svg"
+import faFileShield from "../images/icons/file-shield-duotone.svg"
+import faCookieBite from "../images/icons/cookie-bite-duotone.svg"
+import faHandshakeAngle from "../images/icons/file-shield-duotone.svg"
 
 import iso from "../images/iso9001.svg"
-import {
-  faHouseTurret,
-  faPhoneRotary,
-  faFileShield,
-  faCookieBite,
-  faHandshakeAngle,
-} from "@fortawesome/pro-duotone-svg-icons"
+
 const Footer = () => (
   <footer>
     <div className={`container`} style={{ textAlign: "left" }}>
       <address style={{ marginTop: `1vh` }}>
-        <FontAwesomeIcon icon={faHouseTurret} />
+        <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Address"} src={faHouseTurret} />
         &nbsp; Analytical Alternatives, 269 Farnborough Road, Farnborough,
         Hampshire GU14 7LY
       </address>
 
       <div>
         <span className={"telephone"}>
-          <FontAwesomeIcon icon={faPhoneRotary} />
+          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Phone Number"} src={faPhoneRotary} />
           &nbsp;<a href="tel:+44128530110">+44 (0) 1628 530110</a>
         </span>
         &nbsp; &nbsp; &nbsp;
         <span className={"securesend"}>
-          <FontAwesomeIcon icon={faFileShield} />
+          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Secure Send"} src={faFileShield} />
           &nbsp;Ask to share files with us via Secure Send
         </span>
       </div>
 
       <div style={{ marginTop: `5vh` }}>
         <span className={"cookies"}>
-          <FontAwesomeIcon icon={faCookieBite} />
+          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Cookie Policy"} src={faCookieBite} />
           &nbsp; Cookies: We work hard to protect your privacy and cookie
           banners are tiresome. We don't use non essential cookies.
         </span>
@@ -45,7 +43,7 @@ const Footer = () => (
           <img src={`${iso}`} alt={"ISO 9001"} style={{ height: "140px" }} />
         </div>
         <span>
-          <FontAwesomeIcon icon={faHandshakeAngle} /> We commit to the highest{" "}
+          <img style={{height: "1em", display:"inline-block", margin:0}} src={faHandshakeAngle} alt={"Standards"} /> We commit to the highest{" "}
           <Link to={"standards"}>
             investigative, ethical and legal standards
           </Link>
