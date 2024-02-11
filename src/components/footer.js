@@ -13,26 +13,42 @@ const Footer = () => (
   <footer>
     <div className={`container`} style={{ textAlign: "left" }}>
       <address style={{ marginTop: `1vh` }}>
-        <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Address"} src={faHouseTurret} />
+        <img
+          style={{ height: "1em", display: "inline-block", margin: 0 }}
+          alt={"Address"}
+          src={faHouseTurret}
+        />
         &nbsp; Analytical Alternatives, 269 Farnborough Road, Farnborough,
         Hampshire GU14 7LY
       </address>
 
       <div>
         <span className={"telephone"}>
-          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Phone Number"} src={faPhoneRotary} />
+          <img
+            style={{ height: "1em", display: "inline-block", margin: 0 }}
+            alt={"Phone Number"}
+            src={faPhoneRotary}
+          />
           &nbsp;<a href="tel:+44128530110">+44 (0) 1628 530110</a>
         </span>
         &nbsp; &nbsp; &nbsp;
         <span className={"securesend"}>
-          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Secure Send"} src={faFileShield} />
+          <img
+            style={{ height: "1em", display: "inline-block", margin: 0 }}
+            alt={"Secure Send"}
+            src={faFileShield}
+          />
           &nbsp;Ask to share files with us via Secure Send
         </span>
       </div>
 
       <div style={{ marginTop: `5vh` }}>
         <span className={"cookies"}>
-          <img style={{height: "1em", display:"inline-block", margin:0}} alt={"Cookie Policy"} src={faCookieBite} />
+          <img
+            style={{ height: "1em", display: "inline-block", margin: 0 }}
+            alt={"Cookie Policy"}
+            src={faCookieBite}
+          />
           &nbsp; Cookies: We work hard to protect your privacy and cookie
           banners are tiresome. We don't use non essential cookies.
         </span>
@@ -43,7 +59,12 @@ const Footer = () => (
           <img src={`${iso}`} alt={"ISO 9001"} style={{ height: "140px" }} />
         </div>
         <span>
-          <img style={{height: "1em", display:"inline-block", margin:0}} src={faHandshakeAngle} alt={"Standards"} /> We commit to the highest{" "}
+          <img
+            style={{ height: "1em", display: "inline-block", margin: 0 }}
+            src={faHandshakeAngle}
+            alt={"Standards"}
+          />{" "}
+          We commit to the highest{" "}
           <Link to={"standards"}>
             investigative, ethical and legal standards
           </Link>
