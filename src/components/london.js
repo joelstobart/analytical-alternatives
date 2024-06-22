@@ -16,4 +16,5 @@ function London() {
     </section>
   )
 }
+
 export default London

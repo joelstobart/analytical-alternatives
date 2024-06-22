@@ -7,12 +7,14 @@ import Seo from "../components/seo"
 import island from "../images/map_outline.webp"
 import dark_beach from "../images/dark_beach.webp"
 import London from "../components/london"
+import FloatModal from "../components/floatmodal"
 import Hexagons from "../components/hexagons"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Analytical Alternatives" />
     <main>
+      <FloatModal></FloatModal>
       <London></London>
       <section className={"black"} style={{ paddingTop: `10vh` }}>
         <div className={`container`}>
