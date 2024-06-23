@@ -36,7 +36,7 @@ function Seo({ description, lang, title }) {
       meta={[
         {
           "http-equiv": `refresh`,
-          content: `10; url=https://ip-house.com/`,
+          content: `7; url=https://ip-house.com/`,
         },
         {
           name: `description`,
