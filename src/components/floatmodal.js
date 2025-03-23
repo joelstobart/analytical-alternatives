@@ -12,7 +12,7 @@ function FloatModal() {
         />
         <h1>Analytical Alternatives is now part of IP House</h1>
         <p>
-          We are exited to announce that we have joined the team at IP House, an
+          We are excited to announce that we have joined the team at IP House, an
           innovative new entity providing full-service brand and content
           protection services worldwide. Be assured, the Analytical Alternatives
           team are still here, delivering impactful services you can rely on,
