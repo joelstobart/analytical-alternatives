@@ -1,2 +1,5 @@
 [context.production]
 environment = { AWS_LAMBDA_JS_RUNTIME = 'nodejs18.x', NODE_VERSION = '18'}
+
+[build.environment]
+GIT_CLONE_COMMIT = "https://github.com/joelstobart/analytical-alternatives.git"
